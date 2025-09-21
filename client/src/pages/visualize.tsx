@@ -2113,10 +2113,7 @@ export default function Visualize() {
                         <Bar 
                           dataKey="current" 
                           name="Current"
-                          fill={(data) => {
-                            const value = data.current;
-                            return value > 80 ? '#10B981' : value > 60 ? '#F59E0B' : value > 40 ? '#F97316' : '#EF4444';
-                          }}
+                          fill="#10B981"
                         />
                       </BarChart>
                     </ResponsiveContainer>

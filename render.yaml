@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: aquila-marine-platform
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: VITE_API_BASE_URL
+        value: https://aquila-marine-platform.onrender.com
+      - key: VITE_ENABLE_MOCK_API
+        value: "true"
+      - key: PORT
+        value: "10000"
+    healthCheckPath: /
+    autoDeploy: true
+    region: ohio
+    plan: free
