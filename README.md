@@ -322,9 +322,11 @@ AQUILA-main/
 ### 🧠 Core Team
 **Meghali Dutta** - *AI/ML Developer*
 - 🎓 Specialized in Machine Learning and Computer Vision
-- 🔬 Marine Biology Data Science Expert
 - 🚀 Full-stack Developer with React/TypeScript expertise
 - 📊 Advanced Analytics and Visualization Specialist
+
+**Supriya Sar** - *Frontend Developer*
+
 
 ### 🤝 Acknowledgments
 - Special thanks to the marine research community for inspiration

@@ -7,6 +7,7 @@ export interface IStorage {
   getUserByEmail(email: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
   updateUserLastLogin(id: string): Promise<void>;
+  updateUserPassword(id: string, hashedPassword: string): Promise<void>;
 
   // Dataset operations
   getDatasets(userId?: string): Promise<Dataset[]>;
@@ -142,6 +143,14 @@ export class MemStorage implements IStorage {
     const user = this.users.get(id);
     if (user) {
       user.lastLoginAt = new Date();
+      this.users.set(id, user);
+    }
+  }
+
+  async updateUserPassword(id: string, hashedPassword: string): Promise<void> {
+    const user = this.users.get(id);
+    if (user) {
+      user.password = hashedPassword;
       this.users.set(id, user);
     }
   }

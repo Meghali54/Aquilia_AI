@@ -43,6 +43,34 @@ function Router() {
 
   return (
     <Switch>
+      {/* Debug route */}
+      <Route path="/debug">
+        <div style={{ padding: '20px', background: 'white', color: 'black', minHeight: '100vh' }}>
+          <h1>Debug Page - AQUILA Backend Working!</h1>
+          <p>Is Authenticated: {isAuthenticated ? 'Yes' : 'No'}</p>
+          <p>User: {user ? JSON.stringify(user) : 'None'}</p>
+          <p>Token: {useAuth.getState().token || 'None'}</p>
+          <div style={{ marginTop: '20px' }}>
+            <button onClick={() => {
+              localStorage.clear();
+              window.location.reload();
+            }} style={{ padding: '10px', marginRight: '10px', background: 'red', color: 'white', border: 'none', cursor: 'pointer' }}>
+              Clear Storage & Reload
+            </button>
+            <button onClick={() => {
+              const { login } = useAuth.getState();
+              login('test-token', { id: '1', email: 'test@example.com', name: 'Test User', role: 'researcher' });
+              window.location.reload();
+            }} style={{ padding: '10px', marginRight: '10px', background: 'green', color: 'white', border: 'none', cursor: 'pointer' }}>
+              Test Login
+            </button>
+            <a href="/auth/login" style={{ color: 'blue', padding: '10px', display: 'inline-block' }}>Go to Login</a>
+            <br/><br/>
+            <a href="/" style={{ color: 'green', padding: '10px', display: 'inline-block' }}>Go to Home</a>
+          </div>
+        </div>
+      </Route>
+
       {/* Auth routes */}
       <Route path="/auth/login" component={Login} />
       
