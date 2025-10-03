@@ -1,0 +1,46 @@
+/* Custom Leaflet Map Styles */
+.leaflet-popup-content-wrapper {
+  background: #1e293b !important;
+  color: white !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.leaflet-popup-tip {
+  background: #1e293b !important;
+}
+
+.leaflet-popup-close-button {
+  color: #cbd5e1 !important;
+  font-size: 18px !important;
+}
+
+.leaflet-popup-close-button:hover {
+  color: white !important;
+}
+
+/* Custom marker styles */
+.leaflet-marker-icon {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+}
+
+/* Control styling */
+.leaflet-control {
+  background: rgba(30, 41, 59, 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+}
+
+.leaflet-control a {
+  background-color: rgba(30, 41, 59, 0.9) !important;
+  color: #cbd5e1 !important;
+}
+
+.leaflet-control a:hover {
+  background-color: rgba(51, 65, 85, 0.9) !important;
+  color: white !important;
+}

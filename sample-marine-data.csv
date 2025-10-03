@@ -1,0 +1,33 @@
+Date,Location,Latitude,Longitude,Temperature_C,Salinity_PSU,pH,Dissolved_Oxygen_mg_L,Fish_Count,Species,Depth_m,Chlorophyll_mg_m3,Nitrate_umol_L
+2024-01-15,Kerala Coast,8.5241,76.9366,28.5,34.8,8.1,6.2,1247,Sardinella longiceps,45,2.1,8.3
+2024-01-15,Tamil Nadu Coast,11.0168,76.9558,29.2,35.1,8.0,6.0,986,Rastrelliger kanagurta,32,1.8,7.9
+2024-01-16,Goa Waters,15.2993,74.1240,27.8,35.3,8.2,6.5,632,Scomberomorus commerson,85,1.5,9.1
+2024-01-16,Mumbai Coast,19.0760,72.8777,26.5,34.5,8.0,6.8,421,Lutjanus argentimaculatus,65,2.3,6.7
+2024-01-17,Chennai Waters,13.0827,80.2707,28.9,32.1,7.9,5.9,234,Lates calcarifer,28,3.1,12.4
+2024-01-17,Gujarat Coast,21.1702,72.8311,25.8,35.4,8.1,7.1,567,Pomfret argenteus,120,1.2,5.8
+2024-01-18,Andhra Pradesh Coast,17.6868,83.2185,27.1,33.8,8.0,6.3,789,Hilsa kelee,42,2.7,8.9
+2024-01-18,West Bengal Coast,22.5726,88.3639,26.2,31.5,7.8,5.5,1123,Tenualosa ilisha,35,3.5,15.2
+2024-01-19,Kerala Coast,8.7241,76.8366,28.8,34.9,8.2,6.4,1156,Sardinella longiceps,38,2.0,7.8
+2024-01-19,Tamil Nadu Coast,11.2168,76.8558,29.5,35.2,7.9,5.8,1034,Rastrelliger kanagurta,29,1.9,8.2
+2024-01-20,Goa Waters,15.1993,74.2240,28.1,35.1,8.1,6.6,678,Scomberomorus commerson,78,1.6,8.7
+2024-01-20,Mumbai Coast,19.1760,72.9777,26.8,34.7,8.0,6.9,456,Lutjanus argentimaculatus,58,2.1,7.1
+2024-01-21,Chennai Waters,13.1827,80.3707,29.2,32.3,7.8,6.1,267,Lates calcarifer,31,2.9,11.8
+2024-01-21,Gujarat Coast,21.2702,72.9311,26.1,35.6,8.2,7.3,623,Pomfret argenteus,115,1.1,6.2
+2024-01-22,Andhra Pradesh Coast,17.7868,83.3185,27.4,34.0,8.1,6.5,834,Hilsa kelee,46,2.5,9.3
+2024-01-22,West Bengal Coast,22.6726,88.4639,26.5,31.8,7.9,5.7,1087,Tenualosa ilisha,33,3.2,14.6
+2024-01-23,Kerala Coast,8.6241,77.0366,28.3,35.0,8.0,6.3,1198,Sardinella longiceps,41,2.2,8.1
+2024-01-23,Tamil Nadu Coast,11.1168,77.0558,29.0,35.0,8.1,6.2,967,Rastrelliger kanagurta,35,2.0,7.6
+2024-01-24,Goa Waters,15.3993,74.0240,27.6,35.4,8.3,6.7,598,Scomberomorus commerson,92,1.4,9.5
+2024-01-24,Mumbai Coast,19.0260,72.7777,26.3,34.6,7.9,7.0,389,Lutjanus argentimaculatus,62,2.4,6.9
+2024-01-25,Chennai Waters,13.0327,80.2207,28.7,32.0,7.7,5.8,298,Lates calcarifer,26,3.3,13.1
+2024-01-25,Gujarat Coast,21.1202,72.7311,25.5,35.7,8.1,7.2,589,Pomfret argenteus,125,1.0,5.9
+2024-01-26,Andhra Pradesh Coast,17.6368,83.1185,26.9,33.9,8.0,6.4,756,Hilsa kelee,44,2.6,8.8
+2024-01-26,West Bengal Coast,22.5226,88.2639,26.0,31.6,7.8,5.6,1156,Tenualosa ilisha,37,3.4,15.0
+2024-01-27,Kerala Coast,8.4741,76.8866,28.6,34.7,8.1,6.1,1203,Sardinella longiceps,43,2.1,8.0
+2024-01-27,Tamil Nadu Coast,10.9668,76.9058,29.3,35.3,8.0,6.0,1012,Rastrelliger kanagurta,30,1.8,7.8
+2024-01-28,Goa Waters,15.2493,74.1740,27.9,35.2,8.2,6.8,645,Scomberomorus commerson,81,1.5,9.0
+2024-01-28,Mumbai Coast,19.1260,72.8277,26.6,34.8,8.0,6.7,432,Lutjanus argentimaculatus,67,2.2,7.0
+2024-01-29,Chennai Waters,13.1327,80.3207,28.4,32.2,7.9,6.2,245,Lates calcarifer,29,3.0,12.5
+2024-01-29,Gujarat Coast,21.2202,72.8811,25.9,35.5,8.1,7.4,612,Pomfret argenteus,118,1.1,6.0
+2024-01-30,Andhra Pradesh Coast,17.7368,83.2685,27.2,33.7,8.1,6.6,798,Hilsa kelee,45,2.4,9.1
+2024-01-30,West Bengal Coast,22.6226,88.3139,26.3,31.7,7.8,5.4,1134,Tenualosa ilisha,34,3.3,14.8
